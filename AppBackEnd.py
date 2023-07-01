@@ -6,7 +6,6 @@ from tkinter import Button
 from tkinter import Menu,simpledialog
 from backEndButton import *
 from AppReq import *
-import Webserver 
 import win32dll
 import random as r
 import scapy.all as scapy
@@ -150,7 +149,6 @@ class App:
         Get_IP = Button(root, text="Get IP", command=get_ip)
         Request = Button(root, text="Request Website", command=CustomRequester.get)
         Post = Button(root, text="Post Website", command=CustomRequester.Post)
-        OpenServer = Button(root, text="Open Web Server", command=Webserver.main)
         Get_MAC = Button(root, text="Get MAC Address", command=get_mac)
         Get_Network_Info = Button(root, text="Get Network Info", command=get_network_info)
         Kernal32 = Button(root,text="Kernal32", command=lambda: win32dll.Regular())
@@ -160,7 +158,7 @@ class App:
         buttons = [PROC, IPA, IPL, IS, SSA, ARP, ATP, CC, EX ]
 
         another_buttons = [Scan, Get_IP, Request,
-                           OpenServer, Get_MAC, Get_Network_Info,
+                           Get_MAC, Get_Network_Info,
                            Post, Kernal32
                            ]
 
