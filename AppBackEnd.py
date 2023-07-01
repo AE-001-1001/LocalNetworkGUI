@@ -168,7 +168,14 @@ class App:
             zyx.config(font=("Sans", 9), background="black", foreground="white", activebackground="black", activeforeground="white")
         for xyz in another_buttons:
             xyz.config(font=("Sans", 9), background="black", foreground="white", activebackground="black", activeforeground="white")
-            
+        
+        for i in range(len(buttons)):
+            # align the buttons to the left to match the size of the window
+            buttons[i].place(x=344, y=30*i, width=100)
+            buttons[i].bind("<Enter>", lambda event, i=i: buttons[i].config(background="white", foreground="black"))
+            buttons[i].bind("<Leave>", lambda event, i=i: buttons[i].config(background="black", foreground="white"))
+            print("Initialized: {}".format(buttons[i]).replace("!", "").replace(".", ""))
+            root.update()
         for ZYX in range(len(another_buttons)):
             # move these buttons to the right side of the window and move them instead of lined up from the left, line them up from the right
             another_buttons[ZYX].place(x=0, y=30*ZYX, width=100)
@@ -177,13 +184,7 @@ class App:
             print("Initialized: {}".format(another_buttons[ZYX]).replace("!", "").replace(".", ""))
             root.update()
 
-        for i in range(len(buttons)):
-            # align the buttons to the left to match the size of the window
-            buttons[i].place(x=344, y=30*i, width=100)
-            buttons[i].bind("<Enter>", lambda event, i=i: buttons[i].config(background="white", foreground="black"))
-            buttons[i].bind("<Leave>", lambda event, i=i: buttons[i].config(background="black", foreground="white"))
-            print("Initialized: {}".format(buttons[i]).replace("!", "").replace(".", ""))
-            root.update()
+
 
 
 

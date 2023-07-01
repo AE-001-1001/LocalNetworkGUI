@@ -236,11 +236,11 @@ def Symbol():
     dictionary = {1:'\u256D', 2:'\u256E', 3:'\u2570', 4:'\u256F', 5:'\u256B' , 6:'\u256C', 7:'\u2571', 8:'\u2572', 9:'\u2573'}
 
     while True:
-        for i in range(1, 8):
+        for i in range(1, 9):
             i += 1
             print(dictionary[i], end='\r')
         for y in range(0, 20):
-            print(dictionary[r.randint(1, 8)])
+            print(dictionary[r.randint(1, 9)])
         for x in range(0,10):
             print("*" * x + "-" * (10-i) + "*" * y , end='\r')
         return 0
