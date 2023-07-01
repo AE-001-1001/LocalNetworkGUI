@@ -11,10 +11,11 @@ then make it an executable, and run it on a windows machine.
 It is not the most efficient, but it is a proof of concept.
 
 # [Installation]
-1. Download the repository
+1. git clone https://github.com/AE-001-1001/LocalNetworkGUI.git
 2. Install python 3.9 or higher
-3. Pip install the requirements.txt file:
+3. cd LocalNetworkGUI
+4. Pip install the requirements.txt file:
     - pip install -r requirements.txt
-4. Run the following command in the directory of the repository
+5. Run the following command in the directory of the repository
     - python LocalNetworkGUI.py
-5. Enjoy!
+6. Enjoy!
