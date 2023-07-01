@@ -187,7 +187,6 @@ class App:
 
 
 
-
         #Menu bar at the top of window
         menu = Menu(root)
         root.config(menu=menu)

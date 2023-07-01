@@ -195,12 +195,15 @@ def find_ip_location(x):
     # create a list of ip addresses
         list_if_ip = dict()
         for i in ip:
+            # ip addresses to be disregarded
             list_if_ip[i] = i
             if i == '127.0.0.1':
                 # don't display the loopback address
                 i = None
+                pass
             if i == '0.0.0.0':
                 i= None
+                pass
             else:
                 print("IP found: %s" % i)
     # create a handle to the console
