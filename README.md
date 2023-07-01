@@ -17,5 +17,5 @@ It is not the most efficient, but it is a proof of concept.
 4. Pip install the requirements.txt file:
     - pip install -r requirements.txt
 5. Run the following command in the directory of the repository
-    - python LocalNetworkGUI.py
+    - python App.py
 6. Enjoy!
