@@ -1,5 +1,5 @@
 # LocalNetworkGUI
-This is a python based, network sniffer, and other miscellaneous functions.
+This is a python based, network sniffer, and other miscellaneous functions. Using this requires credit to AE-001-1001
 # [Proof Of Application](https://github.com/AE-001-1001/LocalNetworkGUI/wiki)
 Source code is purely python, and inspired by curiosity. 
 I do apologize for the rough looking GUI, and no backend so no sneaky backdoor.
