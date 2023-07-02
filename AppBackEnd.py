@@ -185,7 +185,7 @@ class App:
             root.update()
 
 
-
+        # i could've put a trojan in here but i didn't...
 
         #Menu bar at the top of window
         menu = Menu(root)
