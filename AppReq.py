@@ -1,5 +1,4 @@
 import requests
-import json
 from tkinter import simpledialog
 
 class CustomRequester:
@@ -12,8 +11,11 @@ class CustomRequester:
         """Website Getter"""
         # ask what website to get
         url = simpledialog.askstring("Website", "Enter Website")
+        amount = simpledialog.askinteger("Amount", "Enter Amount")
         r = [requests.get(url).headers]
-        print(r)
+        for i in range(amount):
+            r.append(requests.get(url).headers)
+            print(i)
         return 0
     def Post():
         """Website Poster"""
