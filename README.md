@@ -19,3 +19,6 @@ It is not the most efficient, but it is a proof of concept.
 5. Run the following command in the directory of the repository
     - python App.py
 6. Enjoy!
+
+# [MISC]
+- This will not work with a device that has spoofed their MAC address :0
