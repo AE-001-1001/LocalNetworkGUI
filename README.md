@@ -10,6 +10,7 @@ The concept whenever this was created, was created everything in python
 then make it an executable, and run it on a windows machine.
 It is not the most efficient, but it is a proof of concept.
 
+Also the speedtest.exe is from the direct website, as you can goto the domain listed in the source and it would show the legitimate website. 
 # [Installation]
 1. git clone https://github.com/AE-001-1001/LocalNetworkGUI.git
 2. Install python 3.9 or higher
