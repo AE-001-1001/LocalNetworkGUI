@@ -19,6 +19,7 @@ Also the speedtest.exe is from the direct website, as you can goto the domain li
     - pip install -r requirements.txt
 5. Run the following command in the directory of the repository
     - python App.py
+    - if python is already in path, you can just do App.py
 6. Enjoy!
 
 # [MISC]
