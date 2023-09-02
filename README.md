@@ -1,5 +1,6 @@
 # LocalNetworkGUI
 This is a python based, network sniffer, and other miscellaneous functions. Using this requires credit to AE-001-1001
+# [Virus Total](https://www.virustotal.com/gui/file/7b1c5aba864876d51e1b1b471a8f76bc8ce26131b994386fab1f4087d75f1d48?nocache=1)
 # [Proof Of Application](https://github.com/AE-001-1001/LocalNetworkGUI/wiki)
 Source code is purely python, and inspired by curiosity. 
 I do apologize for the rough looking GUI, and no backend so no sneaky backdoor.
